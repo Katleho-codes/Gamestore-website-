@@ -1,0 +1,39 @@
+.careers .btn-career {
+  width: auto;
+  padding: 10px 20px;
+  font-family: var(--f1);
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--c4);
+  border: var(--c4);
+  color: var(--c6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  margin: 1rem auto;
+}
+.careers a:hover,
+.careers a:active,
+.careers a:focus {
+  color: white;
+  background-color: var(--c2);
+  border: var(--c2);
+}
+.careers .col-sm-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.careers .col-sm-3 img {
+  width: 12rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.careers .col-sm-3 h5 {
+  color: #001d3d;
+  font-weight: bold;
+}
+.careers .col-sm-3 p {
+  color: #001d3d;
+  font-weight: normal;
+}
